@@ -10,24 +10,27 @@ h1 {
     text-align: center;
 }
 
-/* Positioning */
-.recipe-box {  
-    width: 25em;
-    height: 12em;
-    margin: auto;
-    padding: 1em;
-}
-
-/* Styling */
 .recipe-box {
-    background-color: lightslategray;
     text-align: center;
+    background-color: rgb(206, 206, 206);
+    padding: .5em;
+    width: 60%;
+    margin: 0 auto;
     border-radius: 2em;
 }
 
 ul {
     list-style-type: none; 
     padding-left: 0;
+}
+
+li {
+    display: inline-block;
+    background-color: lightslategray;
+    padding: 1.5em;
+    border-radius: 1em;
+    margin: .5em;
+    /* width: 25%; */
 }
 
 .recipe-box a{
