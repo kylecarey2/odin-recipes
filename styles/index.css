@@ -12,11 +12,10 @@ h1 {
 
 /* Positioning */
 .recipe-box {  
-    position: fixed;
-    inset: 0;
-    width: 15em;
-    height: 15em;
+    width: 25em;
+    height: 12em;
     margin: auto;
+    padding: 1em;
 }
 
 /* Styling */
@@ -29,7 +28,6 @@ h1 {
 ul {
     list-style-type: none; 
     padding-left: 0;
-    
 }
 
 .recipe-box a{
