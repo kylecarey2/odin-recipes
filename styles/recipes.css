@@ -1,0 +1,37 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+
+body {
+    background-color:gainsboro;
+}
+
+h1{
+    text-align: center;
+}
+
+.img-box {
+    text-align: center;
+    /* padding-left: 1em; */
+    /* padding-right: 1em; */
+}
+
+img {
+    width: 40%;
+    height: auto;
+    min-width: 250px;
+    min-height: auto;
+}
+
+.description-box,
+.ingredients-box,
+.steps-box,
+.img-box {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.return-link {
+    text-align: right;
+    padding-right: 1em;
+}
